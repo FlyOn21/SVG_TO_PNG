@@ -2,14 +2,17 @@ import base64
 import json
 import io
 import timeit
+import cairo
+from typing import Optional
+
 import gi
 gi.require_version('Rsvg', '2.0')
 from gi.repository import Rsvg, GdkPixbuf, GLib
-import cairo
+
 
 def is_valid_svg(svg_data: str) -> bool:
     """
-    Validate the SVG data for common issues that might cause cairosvg to fail.
+    Validate the SVG data for common issues that might cause convert to fail.
     :param svg_data: SVG data as a string
     :return: True if valid, False otherwise
     """
@@ -25,7 +28,8 @@ def is_valid_svg(svg_data: str) -> bool:
 
     return True
 
-def svg_to_png(svg_base64: str, name: str) -> str:
+
+def svg_to_png(svg_base64: str, name: str) -> Optional[str]:
     """
     Convert a base64-encoded SVG to a base64-encoded PNG.
     :param svg_base64: base64-encoded SVG
@@ -61,7 +65,8 @@ def svg_to_png(svg_base64: str, name: str) -> str:
         return png_base64
     except Exception as e:
         print(f"Error converting SVG to PNG: {e}")
-        raise e
+        return
+
 
 def process_json_file(input_file: str, output_file: str):
     """
@@ -82,8 +87,8 @@ def process_json_file(input_file: str, output_file: str):
     with open(output_file, 'w') as f:
         json.dump(data, f, indent=4)
 
+
 if __name__ == '__main__':
-    # Example usage
     input_json_path = 'Json.txt'
     output_json_path = 'Result.json'
     time = timeit.timeit(lambda: process_json_file(input_json_path, output_json_path), number=1)
