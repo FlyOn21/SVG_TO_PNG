@@ -1,0 +1,326 @@
+        <svg id="svg-draft"
+                              style="border: '1px solid transparent'"
+                         width="100%" height="100%" errmsg=""
+             viewBox="-106 106 896.5 1135"
+             version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+            <title>684.5 x 923 x 18 (КС 800 права)</title>
+                        <defs>
+                                                                                <clipPath id="svg-side-1-contour-clip">
+                    <use xlink:href="#svg-side-1-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-2-contour-clip">
+                    <use xlink:href="#svg-side-2-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-3-contour-clip">
+                    <use xlink:href="#svg-side-3-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-4-contour-clip">
+                    <use xlink:href="#svg-side-4-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-5-contour-clip">
+                    <use xlink:href="#svg-side-5-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-6-contour-clip">
+                    <use xlink:href="#svg-side-1-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-7-contour-clip">
+                    <use xlink:href="#svg-side-1-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-8-contour-clip">
+                    <use xlink:href="#svg-side-1-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-9-contour-clip">
+                    <use xlink:href="#svg-side-1-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-10-contour-clip">
+                    <use xlink:href="#svg-side-1-contour"/>
+                </clipPath>
+                <marker id="arrowlessDimPoint1" viewBox="-2 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="black" d="M0,-10 L0,10"/>
+                </marker>
+                <marker id="arrowlessDimPoint2" viewBox="-27 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="black" d="M0,-10 L0,10"/>
+                </marker>
+                <marker id="DimPoint1" viewBox="-2 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="black" d="M0,0 L20,-4 16,0 20,4 z M0,-10 L0,10 M0,0 L27,0"/>
+                </marker>
+                <marker id="DimPoint2" viewBox="-27 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="black" d="M0,0 L-20,-4 -16,0 -20,4 z M0,-10 L0,10 M0,0 L-27,0"/>
+                </marker>
+                <marker id="DimPointRed" viewBox="-27 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path fill="#ff0000" stroke="none" d="M-2,0 L-12,-4 -9,0 -12,4 z"/>
+                </marker>
+                <marker id="smallDimPoint1" viewBox="-2 -12 29 24" markerWidth="8" markerHeight="18" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="gray" d="M0,0 L20,-4 16,0 20,4 z M0,-10 L0,10 M0,0 L27,0"/>
+                </marker>
+                <marker id="smallDimPoint2" viewBox="-27 -12 29 24" markerWidth="8" markerHeight="18" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="gray" d="M0,0 L-20,-4 -16,0 -20,4 z M0,-10 L0,10 M0,0 L-27,0"/>
+                </marker>
+                <marker id="DimPointAxis" refX="-6" refY="0" viewBox="-27 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="gray" stroke-width="0.03em" fill="gray" d="M0,0 L-20,-4 -16,0 -20,4 z"/>
+                </marker>
+                <marker id="DimPointAxisBlue" refX="-6" refY="0" viewBox="-27 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="none" fill="blue" d="M0,0 L-20,-4 -16,0 -20,4 z"/>
+                </marker>
+                <marker id="DimPointRadius" refX="-5" refY="0" viewBox="-27 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="black" stroke-width="0.03em" fill="black" d="M0,0 L-20,-4 -16,0 -20,4 z"/>
+                </marker>
+                <pattern id="bevel_pattern" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                    <line stroke="black" x1="0" y1="0" x2="15" y2="15"></line>
+                </pattern>
+                <pattern id="bevel_pattern5" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="15" height="15" fill="green" />
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                    <line stroke="black" x1="0" y1="0" x2="15" y2="15"></line>
+                </pattern>
+                <pattern id="bevel_pattern8" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="15" height="15" fill="#FA6D08" />
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                    <line stroke="black" x1="0" y1="0" x2="15" y2="15"></line>
+                </pattern>
+                <pattern id="bevel_pattern10" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="15" height="15" fill="lightblue" />
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                    <line stroke="black" x1="0" y1="0" x2="15" y2="15"></line>
+                </pattern>
+                <pattern id="bevel_pattern_back" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="#ffffee" x1="0" y1="15" x2="15" y2="0" class="bevel_pattern"></line>
+                    <line stroke="#ffffee" x1="0" y1="0" x2="15" y2="15" class="bevel_pattern"></line>
+                </pattern>
+                <pattern id="bevel_pattern_back5" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="15" height="15" fill="green" />
+                    <line stroke="#ffffee" x1="0" y1="15" x2="15" y2="0" class="bevel_pattern5"></line>
+                    <line stroke="#ffffee" x1="0" y1="0" x2="15" y2="15" class="bevel_pattern5"></line>
+                </pattern>
+                <pattern id="bevel_pattern_back8" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="15" height="15" fill="#FA6D08" />
+                    <line stroke="#ffffee" x1="0" y1="15" x2="15" y2="0" class="bevel_pattern8"></line>
+                    <line stroke="#ffffee" x1="0" y1="0" x2="15" y2="15" class="bevel_pattern8"></line>
+                </pattern>
+                <pattern id="bevel_pattern_back10" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="15" height="15" fill="lightblue" />
+                    <line stroke="#ffffee" x1="0" y1="15" x2="15" y2="0" class="bevel_pattern10"></line>
+                    <line stroke="#ffffee" x1="0" y1="0" x2="15" y2="15" class="bevel_pattern10"></line>
+                </pattern>
+                <pattern id="bevel_pattern-faska" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                    <line stroke="black" x1="0" y1="0" x2="15" y2="15"></line>
+                </pattern>
+                <pattern id="bevel_pattern_back-faska" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0" class="bevel_pattern"></line>
+                    <line stroke="black" x1="0" y1="0" x2="15" y2="15" class="bevel_pattern"></line>
+                </pattern>
+                <pattern id="bevel_pattern-radius" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                </pattern>
+                <pattern id="bevel_pattern_back-radius" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0" class="bevel_pattern"></line>
+                </pattern>
+                <pattern id="rounded_pattern" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                </pattern>
+            </defs>
+                        <g id="svg-detail" transform="translate(0,1135) scale(1,-1)">
+                                <g id="svg-side-1">
+                                            <path id="svg-side-1-contour" fill="none" stroke="black"
+                              stroke-width="8" d=" M 0,0 L 0,923 L 684.5,923 L 684.5,0 L 0,0"/>
+                                        <g class="svg-holes-0" clip-path="url(#svg-side-1-contour-clip)"><circle cx="50" cy="30" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="50" cy="30" r="3.5" depth="30" class="svg-hole-0" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-1" clip-path="url(#svg-side-1-contour-clip)"><circle cx="50" cy="110" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="50" cy="110" r="3.5" depth="30" class="svg-hole-1" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-2" clip-path="url(#svg-side-1-contour-clip)"><circle cx="50" cy="149" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="50" cy="149" r="3.5" depth="30" class="svg-hole-2" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-3" clip-path="url(#svg-side-1-contour-clip)"><circle cx="300" cy="149" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="300" cy="149" r="3.5" depth="30" class="svg-hole-3" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-4" clip-path="url(#svg-side-1-contour-clip)"><circle cx="550" cy="149" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="550" cy="149" r="3.5" depth="30" class="svg-hole-4" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-5" clip-path="url(#svg-side-1-contour-clip)"><rect x="656.5" y="46" width="28" height="8" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-6" clip-path="url(#svg-side-1-contour-clip)"><circle cx="650.5" cy="50" r="7.5" depth="13.8" class="svg-hole-6" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-7" clip-path="url(#svg-side-1-contour-clip)"><rect x="651.5" y="396" width="33" height="8" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-8" clip-path="url(#svg-side-1-contour-clip)"><circle cx="650.5" cy="400" r="7.5" depth="13.8" class="svg-hole-8" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-9" clip-path="url(#svg-side-1-contour-clip)"><circle cx="442" cy="873" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="442" cy="873" r="3.5" depth="30" class="svg-hole-9" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-10" clip-path="url(#svg-side-1-contour-clip)"><circle cx="442" cy="673" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="442" cy="673" r="3.5" depth="30" class="svg-hole-10" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-11" clip-path="url(#svg-side-1-contour-clip)"><circle cx="70" cy="188" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="188" r="1" depth="3" class="svg-hole-11" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-12" clip-path="url(#svg-side-1-contour-clip)"><circle cx="70" cy="348" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="348" r="1" depth="3" class="svg-hole-12" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-13" clip-path="url(#svg-side-1-contour-clip)"><circle cx="70" cy="498" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="498" r="1" depth="3" class="svg-hole-13" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-14" clip-path="url(#svg-side-1-contour-clip)"><circle cx="70" cy="658" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="658" r="1" depth="3" class="svg-hole-14" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-15" clip-path="url(#svg-side-1-contour-clip)"><circle cx="70" cy="806" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="806" r="1" depth="3" class="svg-hole-15" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-16" clip-path="url(#svg-side-1-contour-clip)"><rect x="46" y="895" width="8" height="28" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-17" clip-path="url(#svg-side-1-contour-clip)"><circle cx="50" cy="889" r="7.5" depth="13.8" class="svg-hole-17" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-18" clip-path="url(#svg-side-1-contour-clip)"><rect x="376" y="895" width="8" height="28" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-19" clip-path="url(#svg-side-1-contour-clip)"><circle cx="380" cy="889" r="7.5" depth="13.8" class="svg-hole-19" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-20" clip-path="url(#svg-side-1-contour-clip)"><circle cx="640" cy="190" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="640" cy="190" r="2.5" depth="30" class="svg-hole-20" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-21" clip-path="url(#svg-side-1-contour-clip)"><rect x="56" y="0" width="8" height="25" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-22" clip-path="url(#svg-side-1-contour-clip)"><rect x="620.5" y="0" width="8" height="25" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-23" clip-path="url(#svg-side-1-contour-clip)"><rect x="651.5" y="246" width="33" height="8" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-24" clip-path="url(#svg-side-1-contour-clip)"><circle cx="650.5" cy="250" r="7.5" depth="13.8" class="svg-hole-24" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g id="svg-trapezoid-1" clip-path="url(#svg-side-1-contour-clip)"/><g id="svg-rectangles-1" hidden="true" style="display:none;" clip-path="url(#svg-side-1-contour-clip)"><rect x="0" y="0" width="80" height="150" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="0" y="0" width="150" height="80" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="0" y="773" width="80" height="150" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="0" y="843" width="150" height="80" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="604.5" y="0" width="80" height="150" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="534.5" y="0" width="150" height="80" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="604.5" y="773" width="80" height="150" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="534.5" y="843" width="150" height="80" stroke="red" stroke-dasharray="2 3" fill="none"/></g><g class="svg-holes-0" clip-path="url(#svg-side-1-contour-clip)"><circle cx="50" cy="30" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="50" cy="30" r="3.5" depth="30" class="svg-hole-0" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-1" clip-path="url(#svg-side-1-contour-clip)"><circle cx="50" cy="110" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="50" cy="110" r="3.5" depth="30" class="svg-hole-1" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-2" clip-path="url(#svg-side-1-contour-clip)"><circle cx="50" cy="149" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="50" cy="149" r="3.5" depth="30" class="svg-hole-2" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-3" clip-path="url(#svg-side-1-contour-clip)"><circle cx="300" cy="149" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="300" cy="149" r="3.5" depth="30" class="svg-hole-3" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-4" clip-path="url(#svg-side-1-contour-clip)"><circle cx="550" cy="149" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="550" cy="149" r="3.5" depth="30" class="svg-hole-4" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-5" clip-path="url(#svg-side-1-contour-clip)"><rect x="656.5" y="46" width="28" height="8" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-6" clip-path="url(#svg-side-1-contour-clip)"><circle cx="650.5" cy="50" r="7.5" depth="13.8" class="svg-hole-6" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-7" clip-path="url(#svg-side-1-contour-clip)"><rect x="651.5" y="396" width="33" height="8" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-8" clip-path="url(#svg-side-1-contour-clip)"><circle cx="650.5" cy="400" r="7.5" depth="13.8" class="svg-hole-8" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-9" clip-path="url(#svg-side-1-contour-clip)"><circle cx="442" cy="873" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="442" cy="873" r="3.5" depth="30" class="svg-hole-9" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-10" clip-path="url(#svg-side-1-contour-clip)"><circle cx="442" cy="673" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="442" cy="673" r="3.5" depth="30" class="svg-hole-10" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-11" clip-path="url(#svg-side-1-contour-clip)"><circle cx="70" cy="188" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="188" r="1" depth="3" class="svg-hole-11" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-12" clip-path="url(#svg-side-1-contour-clip)"><circle cx="70" cy="348" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="348" r="1" depth="3" class="svg-hole-12" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-13" clip-path="url(#svg-side-1-contour-clip)"><circle cx="70" cy="498" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="498" r="1" depth="3" class="svg-hole-13" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-14" clip-path="url(#svg-side-1-contour-clip)"><circle cx="70" cy="658" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="658" r="1" depth="3" class="svg-hole-14" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-15" clip-path="url(#svg-side-1-contour-clip)"><circle cx="70" cy="806" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="806" r="1" depth="3" class="svg-hole-15" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-16" clip-path="url(#svg-side-1-contour-clip)"><rect x="46" y="895" width="8" height="28" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-17" clip-path="url(#svg-side-1-contour-clip)"><circle cx="50" cy="889" r="7.5" depth="13.8" class="svg-hole-17" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-18" clip-path="url(#svg-side-1-contour-clip)"><rect x="376" y="895" width="8" height="28" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-19" clip-path="url(#svg-side-1-contour-clip)"><circle cx="380" cy="889" r="7.5" depth="13.8" class="svg-hole-19" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-20" clip-path="url(#svg-side-1-contour-clip)"><circle cx="640" cy="190" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="640" cy="190" r="2.5" depth="30" class="svg-hole-20" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-21" clip-path="url(#svg-side-1-contour-clip)"><rect x="56" y="0" width="8" height="25" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-22" clip-path="url(#svg-side-1-contour-clip)"><rect x="620.5" y="0" width="8" height="25" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-23" clip-path="url(#svg-side-1-contour-clip)"><rect x="651.5" y="246" width="33" height="8" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-24" clip-path="url(#svg-side-1-contour-clip)"><circle cx="650.5" cy="250" r="7.5" depth="13.8" class="svg-hole-24" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g>                    <g class="xy-pos">
+                        <line class="x-line"/>
+                        <line class="y-line"/>
+                        <text class="x-text"
+                              transform="translate(0, -48) scale(1, -1)"/>
+                        <text class="y-text"
+                              transform="translate(-48, 0) scale(1, -1) rotate(270)"/>
+                                            </g>
+                    <g id="svg-contour-bands" clip-path="url(#svg-side-1-contour-clip)"
+                       style="">
+                        <line x1="0" y1="957" x2="684.5"
+                              y2="957"
+                              class="edge05f edge05s mark-band"/>
+                        <line x1="0" y1="-34" x2="684.5"
+                              y2="-34"
+                              class="edge05f edge05s mark-band"/>
+                        <line x1="-34" y1="0" x2="-34"
+                              y2="923"
+                              class="edge2f edge2s mark-band-2"/>
+                        <line x1="718.5" y1="0"
+                              x2="718.5" y2="923"
+                              class="edge05f edge05s mark-band"/>
+                    </g>
+                </g>
+                                                                                    <g id="svg-side-2" transform="translate(-10, 0) scale(-1,1)">
+                                                        <path id="svg-side-2-contour"
+                                 fill="white" stroke="black" stroke-width="5px"                                   class="svg_side_left edge2f edge2s"
+                                                                d="M 0 0 L 18 0 V 923 L 0 923 z"
+                                                              />
+                                                                                                                                                                                                                                                                            
+                            
+                                                                                    <g class="xy-pos">
+                                <line class="x-line"/>
+                                <line class="y-line"/>
+                                <text class="x-text"
+                                      transform="translate(0, -48) scale(-1, -1)"/>
+                                <text class="y-text"
+                                      transform="translate(-58, 0) scale(-1, -1) rotate(270)"/>
+                            </g>
+                                                    </g>
+                                                        <g id="svg-side-3" transform="translate(0, 933)">
+                                                                        <path id="svg-side-3-contour"
+                                         fill="white" stroke="black" stroke-width="5px"                                           class="svg_side_top edge05f edge05s"
+                                          d="M 0 0 L 0 18 H 684.5 L 684.5 0 z"
+                                                                                  style="transform: translate(px,0)"/>
+                                                                                                                                                                                                                                                                                    
+                                                        <g class="svg-holes-16" clip-path="url(#svg-side-3-contour-clip)"><circle cx="50" cy="9" r="10" depth="28" fill="transparent" pointer-events="visible"/><circle cx="50" cy="9" r="4" depth="28" class="svg-hole-16" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-18" clip-path="url(#svg-side-3-contour-clip)"><circle cx="380" cy="9" r="10" depth="28" fill="transparent" pointer-events="visible"/><circle cx="380" cy="9" r="4" depth="28" class="svg-hole-18" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g>                            <g class="xy-pos">
+                                <line class="x-line"/>
+                                <line class="y-line"/>
+                                <text class="x-text"
+                                      transform="translate(0, -58) scale(1, -1)"/>
+                                <text class="y-text"
+                                      transform="translate(-48, 0) scale(1, -1) rotate(270)"/>
+                            </g>
+
+                                                    </g>
+                                                    <g id="svg-side-4" transform="translate(694.5, 0)">
+                                                                    <path id="svg-side-4-contour"
+                                         fill="white" stroke="black" stroke-width="5px"                                           class="svg_side_right edge05f edge05s"
+                                          d="M 0 0 L 18 0 V 923 L 0 923 z"
+                                                                              />
+                                                                
+                                                                                                                                                                                                                                                    
+                                                        <g class="svg-holes-5" clip-path="url(#svg-side-4-contour-clip)"><circle cx="9" cy="50" r="10" depth="28" fill="transparent" pointer-events="visible"/><circle cx="9" cy="50" r="4" depth="28" class="svg-hole-5" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-7" clip-path="url(#svg-side-4-contour-clip)"><circle cx="9" cy="400" r="10" depth="33" fill="transparent" pointer-events="visible"/><circle cx="9" cy="400" r="4" depth="33" class="svg-hole-7" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-23" clip-path="url(#svg-side-4-contour-clip)"><circle cx="9" cy="250" r="10" depth="33" fill="transparent" pointer-events="visible"/><circle cx="9" cy="250" r="4" depth="33" class="svg-hole-23" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g>                            <g class="xy-pos">
+                                <line class="x-line"/>
+                                <line class="y-line"/>
+                                <text class="x-text"
+                                      transform="translate(0, -48) scale(1, -1)"/>
+                                <text class="y-text"
+                                      transform="translate(-58, 0) scale(1, -1) rotate(270)"/>
+                            </g>
+
+                                                    </g>
+                                                            <g id="svg-side-5" transform="translate(0, -10) scale(1,-1)">
+                                                                    <path id="svg-side-5-contour"
+                                                                                   fill="white" stroke="black" stroke-width="5px"                                           class="svg_side_bottom edge05f edge05s"
+                                          d="M 0 0 L 0 18 H 684.5 L 684.5 0 z"/>
+                                                                        
+                                                                                                                                                                                                                                                    
+                            
+                            <g class="svg-holes-21" clip-path="url(#svg-side-5-contour-clip)"><circle cx="60" cy="9" r="10" depth="25" fill="transparent" pointer-events="visible"/><circle cx="60" cy="9" r="4" depth="25" class="svg-hole-21" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-22" clip-path="url(#svg-side-5-contour-clip)"><circle cx="624.5" cy="9" r="10" depth="25" fill="transparent" pointer-events="visible"/><circle cx="624.5" cy="9" r="4" depth="25" class="svg-hole-22" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g>                            <g class="xy-pos">
+                                <line class="x-line"/>
+                                <line class="y-line"/>
+                                <text class="x-text"
+                                      transform="translate(0, -58)"/>
+                                <text class="y-text"
+                                      transform="translate(-48, 0) rotate(270)"/>
+                            </g>
+
+                                                    </g>
+                        <g id="svg-side-6">
+                                <!--                                    <path id="svg-side-6-contour"-->
+<!--                                          fill="--><!--;"-->
+<!--                                          stroke="--><!--;"-->
+<!--                                          stroke-width="--><!--;"-->
+<!--                                          class="--><!--"-->
+<!--                                          d="--><!--"/>-->
+                                                            <g class="svg-holes-0" clip-path="url(#svg-side-6-contour-clip)"><circle cx="50" cy="30" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="50" cy="30" r="3.5" depth="30" class="svg-hole-0" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-1" clip-path="url(#svg-side-6-contour-clip)"><circle cx="50" cy="110" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="50" cy="110" r="3.5" depth="30" class="svg-hole-1" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-2" clip-path="url(#svg-side-6-contour-clip)"><circle cx="50" cy="149" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="50" cy="149" r="3.5" depth="30" class="svg-hole-2" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-3" clip-path="url(#svg-side-6-contour-clip)"><circle cx="300" cy="149" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="300" cy="149" r="3.5" depth="30" class="svg-hole-3" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-4" clip-path="url(#svg-side-6-contour-clip)"><circle cx="550" cy="149" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="550" cy="149" r="3.5" depth="30" class="svg-hole-4" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-5" clip-path="url(#svg-side-6-contour-clip)"><rect x="656.5" y="46" width="28" height="8" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-6" clip-path="url(#svg-side-6-contour-clip)"><circle cx="650.5" cy="50" r="7.5" depth="13.8" class="svg-hole-6" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-7" clip-path="url(#svg-side-6-contour-clip)"><rect x="651.5" y="396" width="33" height="8" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-8" clip-path="url(#svg-side-6-contour-clip)"><circle cx="650.5" cy="400" r="7.5" depth="13.8" class="svg-hole-8" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-9" clip-path="url(#svg-side-6-contour-clip)"><circle cx="442" cy="873" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="442" cy="873" r="3.5" depth="30" class="svg-hole-9" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-10" clip-path="url(#svg-side-6-contour-clip)"><circle cx="442" cy="673" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="442" cy="673" r="3.5" depth="30" class="svg-hole-10" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-11" clip-path="url(#svg-side-6-contour-clip)"><circle cx="70" cy="188" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="188" r="1" depth="3" class="svg-hole-11" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-12" clip-path="url(#svg-side-6-contour-clip)"><circle cx="70" cy="348" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="348" r="1" depth="3" class="svg-hole-12" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-13" clip-path="url(#svg-side-6-contour-clip)"><circle cx="70" cy="498" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="498" r="1" depth="3" class="svg-hole-13" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-14" clip-path="url(#svg-side-6-contour-clip)"><circle cx="70" cy="658" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="658" r="1" depth="3" class="svg-hole-14" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-15" clip-path="url(#svg-side-6-contour-clip)"><circle cx="70" cy="806" r="10" depth="3" fill="transparent" pointer-events="visible"/><circle cx="70" cy="806" r="1" depth="3" class="svg-hole-15" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-16" clip-path="url(#svg-side-6-contour-clip)"><rect x="46" y="895" width="8" height="28" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-17" clip-path="url(#svg-side-6-contour-clip)"><circle cx="50" cy="889" r="7.5" depth="13.8" class="svg-hole-17" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-18" clip-path="url(#svg-side-6-contour-clip)"><rect x="376" y="895" width="8" height="28" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-19" clip-path="url(#svg-side-6-contour-clip)"><circle cx="380" cy="889" r="7.5" depth="13.8" class="svg-hole-19" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-20" clip-path="url(#svg-side-6-contour-clip)"><circle cx="640" cy="190" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="640" cy="190" r="2.5" depth="30" class="svg-hole-20" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-21" clip-path="url(#svg-side-6-contour-clip)"><rect x="56" y="0" width="8" height="25" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-22" clip-path="url(#svg-side-6-contour-clip)"><rect x="620.5" y="0" width="8" height="25" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-23" clip-path="url(#svg-side-6-contour-clip)"><rect x="651.5" y="246" width="33" height="8" fill="none" stroke="#FF00CC" stroke-width="1px" stroke-dasharray="2 1"/></g><g class="svg-holes-24" clip-path="url(#svg-side-6-contour-clip)"><circle cx="650.5" cy="250" r="7.5" depth="13.8" class="svg-hole-24" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g>                            <g class="xy-pos">
+                                <line class="x-line"/>
+                                <line class="y-line"/>
+                                <text class="x-text"
+                                      transform="translate(0, -48) scale(1, -1)"/>
+                                <text class="y-text"
+                                      transform="translate(-48, 0) scale(1, -1) rotate(270)"/>
+                            </g>
+                        </g>
+                                                <g id="svg-grain" clip-path="url(#svg-side-1-contour-clip)"
+                           style="display:none;">
+                                                                                                <path stroke="black"
+                                          stroke-width="8"
+                                          fill="none"
+                                          opacity="1"
+                                          stroke-opacity="1"
+                                          d="M 308.025 451.5 l 68.45 0"/>
+                                    <path stroke="black"
+                                          stroke-width="8"
+                                          fill="none"
+                                          opacity="1"
+                                          stroke-opacity="1"
+                                          d="M 308.025 461.5 l 68.45 0"/>
+                                    <path stroke="black"
+                                          stroke-width="8"
+                                          fill="none"
+                                          opacity="1"
+                                          stroke-opacity="1"
+                                          d="M 308.025 471.5 l 68.45 0"/>
+                                                                                        </g>
+                                        <g class="svg-clipping-rest"/><g class='svg-clipping'></g>                    
+                <g id="svg-cuts">
+                                    </g>
+                <g id="svg-dimentions-sbp">
+                                    </g>
+
+
+
+                  <g id="svg-dimensions" style="">
+                    <g class='svg-clipping-dim'></g>
+                    
+                    
+                    
+                                                                                                                                                             </g>
+                <g id="svg-band-marking" style="display:none;">
+                    <g id="svg-band-marking-top" style="">
+                        <line
+                                class="mark-band"
+                                x1="0" x2="272.25"
+                                transform="translate(0,971) scale(1, -1)"/>
+                        <line
+                                class="mark-band"
+                                x1="412.25" x2="684.5"
+                                transform="translate(0,971) scale(1, -1)"/>
+                        <text class="dim-text" x="342.25"
+                              transform="translate(0,971) scale(1, -1)">0.6                            мм                        </text>
+                    </g>
+                    <g id="svg-band-marking-bottom" style="">
+                        <line
+                                class="mark-band"
+                                x1="0" x2="272.25"
+                                transform="translate(0,-48) scale(1, -1)"/>
+                        <line
+                                class="mark-band"
+                                x1="412.25" x2="684.5"
+                                transform="translate(0,-48) scale(1, -1)"/>
+                        <text class="dim-text" x="342.25"
+                              transform="translate(0,-48) scale(1, -1)">0.6                            мм                        </text>
+                    </g>
+                    <g id="svg-band-marking-left" style="">
+                        <line
+                                class="mark-band-2"
+                                x1="0" x2="391.5"
+                                transform="translate(-48, 0) rotate(90) scale(1, -1)"/>
+                        <line
+                                class="mark-band-2"
+                                x1="531.5" x2="923"
+                                transform="translate(-48, 0) rotate(90) scale(1, -1)"/>
+                        <text class="dim-text" x="461.5"
+                              transform="translate(-48, 0) rotate(90) scale(1, -1)">2                            мм                        </text>
+                    </g>
+                    <g id="svg-band-marking-right" style="">
+                        <line
+                                class="mark-band"
+                                x1="0" x2="391.5"
+                                transform="translate(732.5, 0) rotate(90) scale(1, -1)"/>
+                        <line
+                                class="mark-band"
+                                x1="531.5" x2="923"
+                                transform="translate(732.5, 0) rotate(90) scale(1, -1)"/>
+                        <text class="dim-text" x="461.5"
+                              transform="translate(732.5, 0) rotate(90) scale(1, -1)">0.6                            мм                        </text>
+                    </g>
+                </g>
+                <g id="svg-info" transform="scale(1,-1)">
+                    <text x="-38"
+                          y="38" id="svg-info-text"></text>
+                </g>
+                                            </g>
+
+                    </svg>
+        

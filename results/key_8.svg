@@ -1,0 +1,326 @@
+        <svg id="svg-draft"
+                              style="border: '1px solid transparent'"
+                         width="100%" height="100%" errmsg=""
+             viewBox="-106 106 618 683"
+             version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+            <title>406 x 471 x 18 (950 (Копия V))</title>
+                        <defs>
+                                                                                <clipPath id="svg-side-1-contour-clip">
+                    <use xlink:href="#svg-side-1-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-2-contour-clip">
+                    <use xlink:href="#svg-side-2-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-3-contour-clip">
+                    <use xlink:href="#svg-side-3-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-4-contour-clip">
+                    <use xlink:href="#svg-side-4-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-5-contour-clip">
+                    <use xlink:href="#svg-side-5-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-6-contour-clip">
+                    <use xlink:href="#svg-side-1-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-7-contour-clip">
+                    <use xlink:href="#svg-side-1-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-8-contour-clip">
+                    <use xlink:href="#svg-side-1-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-9-contour-clip">
+                    <use xlink:href="#svg-side-1-contour"/>
+                </clipPath>
+                <clipPath id="svg-side-10-contour-clip">
+                    <use xlink:href="#svg-side-1-contour"/>
+                </clipPath>
+                <marker id="arrowlessDimPoint1" viewBox="-2 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="black" d="M0,-10 L0,10"/>
+                </marker>
+                <marker id="arrowlessDimPoint2" viewBox="-27 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="black" d="M0,-10 L0,10"/>
+                </marker>
+                <marker id="DimPoint1" viewBox="-2 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="black" d="M0,0 L20,-4 16,0 20,4 z M0,-10 L0,10 M0,0 L27,0"/>
+                </marker>
+                <marker id="DimPoint2" viewBox="-27 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="black" d="M0,0 L-20,-4 -16,0 -20,4 z M0,-10 L0,10 M0,0 L-27,0"/>
+                </marker>
+                <marker id="DimPointRed" viewBox="-27 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path fill="#ff0000" stroke="none" d="M-2,0 L-12,-4 -9,0 -12,4 z"/>
+                </marker>
+                <marker id="smallDimPoint1" viewBox="-2 -12 29 24" markerWidth="8" markerHeight="18" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="gray" d="M0,0 L20,-4 16,0 20,4 z M0,-10 L0,10 M0,0 L27,0"/>
+                </marker>
+                <marker id="smallDimPoint2" viewBox="-27 -12 29 24" markerWidth="8" markerHeight="18" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="gray" d="M0,0 L-20,-4 -16,0 -20,4 z M0,-10 L0,10 M0,0 L-27,0"/>
+                </marker>
+                <marker id="DimPointAxis" refX="-6" refY="0" viewBox="-27 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="gray" stroke-width="0.03em" fill="gray" d="M0,0 L-20,-4 -16,0 -20,4 z"/>
+                </marker>
+                <marker id="DimPointAxisBlue" refX="-6" refY="0" viewBox="-27 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="none" fill="blue" d="M0,0 L-20,-4 -16,0 -20,4 z"/>
+                </marker>
+                <marker id="DimPointRadius" refX="-5" refY="0" viewBox="-27 -12 29 24" markerWidth="44" markerHeight="36" orient="auto" markerUnits="userSpaceOnUse">
+                    <path stroke="black" stroke-width="0.03em" fill="black" d="M0,0 L-20,-4 -16,0 -20,4 z"/>
+                </marker>
+                <pattern id="bevel_pattern" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                    <line stroke="black" x1="0" y1="0" x2="15" y2="15"></line>
+                </pattern>
+                <pattern id="bevel_pattern5" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="15" height="15" fill="green" />
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                    <line stroke="black" x1="0" y1="0" x2="15" y2="15"></line>
+                </pattern>
+                <pattern id="bevel_pattern8" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="15" height="15" fill="#FA6D08" />
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                    <line stroke="black" x1="0" y1="0" x2="15" y2="15"></line>
+                </pattern>
+                <pattern id="bevel_pattern10" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="15" height="15" fill="lightblue" />
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                    <line stroke="black" x1="0" y1="0" x2="15" y2="15"></line>
+                </pattern>
+                <pattern id="bevel_pattern_back" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="#ffffee" x1="0" y1="15" x2="15" y2="0" class="bevel_pattern"></line>
+                    <line stroke="#ffffee" x1="0" y1="0" x2="15" y2="15" class="bevel_pattern"></line>
+                </pattern>
+                <pattern id="bevel_pattern_back5" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="15" height="15" fill="green" />
+                    <line stroke="#ffffee" x1="0" y1="15" x2="15" y2="0" class="bevel_pattern5"></line>
+                    <line stroke="#ffffee" x1="0" y1="0" x2="15" y2="15" class="bevel_pattern5"></line>
+                </pattern>
+                <pattern id="bevel_pattern_back8" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="15" height="15" fill="#FA6D08" />
+                    <line stroke="#ffffee" x1="0" y1="15" x2="15" y2="0" class="bevel_pattern8"></line>
+                    <line stroke="#ffffee" x1="0" y1="0" x2="15" y2="15" class="bevel_pattern8"></line>
+                </pattern>
+                <pattern id="bevel_pattern_back10" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="15" height="15" fill="lightblue" />
+                    <line stroke="#ffffee" x1="0" y1="15" x2="15" y2="0" class="bevel_pattern10"></line>
+                    <line stroke="#ffffee" x1="0" y1="0" x2="15" y2="15" class="bevel_pattern10"></line>
+                </pattern>
+                <pattern id="bevel_pattern-faska" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                    <line stroke="black" x1="0" y1="0" x2="15" y2="15"></line>
+                </pattern>
+                <pattern id="bevel_pattern_back-faska" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0" class="bevel_pattern"></line>
+                    <line stroke="black" x1="0" y1="0" x2="15" y2="15" class="bevel_pattern"></line>
+                </pattern>
+                <pattern id="bevel_pattern-radius" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                </pattern>
+                <pattern id="bevel_pattern_back-radius" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0" class="bevel_pattern"></line>
+                </pattern>
+                <pattern id="rounded_pattern" width="15" height="15" patternUnits="userSpaceOnUse">
+                    <line stroke="black" x1="0" y1="15" x2="15" y2="0"></line>
+                </pattern>
+            </defs>
+                        <g id="svg-detail" transform="translate(0,683) scale(1,-1)">
+                                <g id="svg-side-1">
+                                            <path id="svg-side-1-contour" fill="none" stroke="black"
+                              stroke-width="4" d=" M 0,0 L 0,471 L 406,471 L 406,0 L 0,0"/>
+                                        <g class="svg-holes-0" clip-path="url(#svg-side-1-contour-clip)"><circle cx="70" cy="448.5" r="17.5" depth="13" class="svg-hole-0" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-1" clip-path="url(#svg-side-1-contour-clip)"><circle cx="336" cy="448.5" r="17.5" depth="13" class="svg-hole-1" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-2" clip-path="url(#svg-side-1-contour-clip)"><circle cx="366" cy="40" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="366" cy="40" r="2.5" depth="30" class="svg-hole-2" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-3" clip-path="url(#svg-side-1-contour-clip)"><circle cx="238" cy="40" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="238" cy="40" r="2.5" depth="30" class="svg-hole-3" fill="black" stroke="black" stroke-width="1px"/></g><g id="svg-trapezoid-1" clip-path="url(#svg-side-1-contour-clip)"/><g id="svg-rectangles-1" hidden="true" style="display:none;" clip-path="url(#svg-side-1-contour-clip)"><rect x="0" y="0" width="80" height="150" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="0" y="0" width="150" height="80" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="0" y="321" width="80" height="150" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="0" y="391" width="150" height="80" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="326" y="0" width="80" height="150" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="256" y="0" width="150" height="80" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="326" y="321" width="80" height="150" stroke="red" stroke-dasharray="2 3" fill="none"/><rect x="256" y="391" width="150" height="80" stroke="red" stroke-dasharray="2 3" fill="none"/></g><g class="svg-holes-0" clip-path="url(#svg-side-1-contour-clip)"><circle cx="70" cy="448.5" r="17.5" depth="13" class="svg-hole-0" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-1" clip-path="url(#svg-side-1-contour-clip)"><circle cx="336" cy="448.5" r="17.5" depth="13" class="svg-hole-1" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-2" clip-path="url(#svg-side-1-contour-clip)"><circle cx="366" cy="40" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="366" cy="40" r="2.5" depth="30" class="svg-hole-2" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-3" clip-path="url(#svg-side-1-contour-clip)"><circle cx="238" cy="40" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="238" cy="40" r="2.5" depth="30" class="svg-hole-3" fill="black" stroke="black" stroke-width="1px"/></g>                    <g class="xy-pos">
+                        <line class="x-line"/>
+                        <line class="y-line"/>
+                        <text class="x-text"
+                              transform="translate(0, -48) scale(1, -1)"/>
+                        <text class="y-text"
+                              transform="translate(-48, 0) scale(1, -1) rotate(270)"/>
+                                            </g>
+                    <g id="svg-contour-bands" clip-path="url(#svg-side-1-contour-clip)"
+                       style="">
+                        <line x1="0" y1="505" x2="406"
+                              y2="505"
+                              class="edge2f edge2s mark-band-2"/>
+                        <line x1="0" y1="-34" x2="406"
+                              y2="-34"
+                              class="edge2f edge2s mark-band-2"/>
+                        <line x1="-34" y1="0" x2="-34"
+                              y2="471"
+                              class="edge2f edge2s mark-band-2"/>
+                        <line x1="440" y1="0"
+                              x2="440" y2="471"
+                              class="edge2f edge2s mark-band-2"/>
+                    </g>
+                </g>
+                                                                                    <g id="svg-side-2" transform="translate(-10, 0) scale(-1,1)">
+                                                        <path id="svg-side-2-contour"
+                                 fill="white" stroke="black" stroke-width="5px"                                   class="svg_side_left edge2f edge2s"
+                                                                d="M 0 0 L 18 0 V 471 L 0 471 z"
+                                                              />
+                                                                                                                                                                                                                                                                            
+                            
+                                                                                    <g class="xy-pos">
+                                <line class="x-line"/>
+                                <line class="y-line"/>
+                                <text class="x-text"
+                                      transform="translate(0, -48) scale(-1, -1)"/>
+                                <text class="y-text"
+                                      transform="translate(-58, 0) scale(-1, -1) rotate(270)"/>
+                            </g>
+                                                    </g>
+                                                        <g id="svg-side-3" transform="translate(0, 481)">
+                                                                        <path id="svg-side-3-contour"
+                                         fill="white" stroke="black" stroke-width="5px"                                           class="svg_side_top edge2f edge2s"
+                                          d="M 0 0 L 0 18 H 406 L 406 0 z"
+                                                                                  style="transform: translate(px,0)"/>
+                                                                                                                                                                                                                                                                                    
+                                                                                    <g class="xy-pos">
+                                <line class="x-line"/>
+                                <line class="y-line"/>
+                                <text class="x-text"
+                                      transform="translate(0, -58) scale(1, -1)"/>
+                                <text class="y-text"
+                                      transform="translate(-48, 0) scale(1, -1) rotate(270)"/>
+                            </g>
+
+                                                    </g>
+                                                    <g id="svg-side-4" transform="translate(416, 0)">
+                                                                    <path id="svg-side-4-contour"
+                                         fill="white" stroke="black" stroke-width="5px"                                           class="svg_side_right edge2f edge2s"
+                                          d="M 0 0 L 18 0 V 471 L 0 471 z"
+                                                                              />
+                                                                
+                                                                                                                                                                                                                                                    
+                                                                                    <g class="xy-pos">
+                                <line class="x-line"/>
+                                <line class="y-line"/>
+                                <text class="x-text"
+                                      transform="translate(0, -48) scale(1, -1)"/>
+                                <text class="y-text"
+                                      transform="translate(-58, 0) scale(1, -1) rotate(270)"/>
+                            </g>
+
+                                                    </g>
+                                                            <g id="svg-side-5" transform="translate(0, -10) scale(1,-1)">
+                                                                    <path id="svg-side-5-contour"
+                                                                                   fill="white" stroke="black" stroke-width="5px"                                           class="svg_side_bottom edge2f edge2s"
+                                          d="M 0 0 L 0 18 H 406 L 406 0 z"/>
+                                                                        
+                                                                                                                                                                                                                                                    
+                            
+                                                        <g class="xy-pos">
+                                <line class="x-line"/>
+                                <line class="y-line"/>
+                                <text class="x-text"
+                                      transform="translate(0, -58)"/>
+                                <text class="y-text"
+                                      transform="translate(-48, 0) rotate(270)"/>
+                            </g>
+
+                                                    </g>
+                        <g id="svg-side-6">
+                                <!--                                    <path id="svg-side-6-contour"-->
+<!--                                          fill="--><!--;"-->
+<!--                                          stroke="--><!--;"-->
+<!--                                          stroke-width="--><!--;"-->
+<!--                                          class="--><!--"-->
+<!--                                          d="--><!--"/>-->
+                                                            <g class="svg-holes-0" clip-path="url(#svg-side-6-contour-clip)"><circle cx="70" cy="448.5" r="17.5" depth="13" class="svg-hole-0" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-1" clip-path="url(#svg-side-6-contour-clip)"><circle cx="336" cy="448.5" r="17.5" depth="13" class="svg-hole-1" fill="#FFFFCC" stroke="black" stroke-width="4px" opacity=".65"/></g><g class="svg-holes-2" clip-path="url(#svg-side-6-contour-clip)"><circle cx="366" cy="40" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="366" cy="40" r="2.5" depth="30" class="svg-hole-2" fill="black" stroke="black" stroke-width="1px"/></g><g class="svg-holes-3" clip-path="url(#svg-side-6-contour-clip)"><circle cx="238" cy="40" r="10" depth="30" fill="transparent" pointer-events="visible"/><circle cx="238" cy="40" r="2.5" depth="30" class="svg-hole-3" fill="black" stroke="black" stroke-width="1px"/></g>                            <g class="xy-pos">
+                                <line class="x-line"/>
+                                <line class="y-line"/>
+                                <text class="x-text"
+                                      transform="translate(0, -48) scale(1, -1)"/>
+                                <text class="y-text"
+                                      transform="translate(-48, 0) scale(1, -1) rotate(270)"/>
+                            </g>
+                        </g>
+                                                <g id="svg-grain" clip-path="url(#svg-side-1-contour-clip)"
+                           style="display:none;">
+                                                                                                <path stroke="black"
+                                          stroke-width="4"
+                                          fill="none"
+                                          opacity="1"
+                                          stroke-opacity="1"
+                                          d="M 182.7 225.5 l 40.6 0"/>
+                                    <path stroke="black"
+                                          stroke-width="4"
+                                          fill="none"
+                                          opacity="1"
+                                          stroke-opacity="1"
+                                          d="M 182.7 235.5 l 40.6 0"/>
+                                    <path stroke="black"
+                                          stroke-width="4"
+                                          fill="none"
+                                          opacity="1"
+                                          stroke-opacity="1"
+                                          d="M 182.7 245.5 l 40.6 0"/>
+                                                                                        </g>
+                                        <g class="svg-clipping-rest"/><g class='svg-clipping'></g>                    
+                <g id="svg-cuts">
+                                    </g>
+                <g id="svg-dimentions-sbp">
+                                    </g>
+
+
+
+                  <g id="svg-dimensions" style="">
+                    <g class='svg-clipping-dim'></g>
+                    
+                    
+                    
+                                                                                                                                                             </g>
+                <g id="svg-band-marking" style="display:none;">
+                    <g id="svg-band-marking-top" style="">
+                        <line
+                                class="mark-band-2"
+                                x1="0" x2="133"
+                                transform="translate(0,519) scale(1, -1)"/>
+                        <line
+                                class="mark-band-2"
+                                x1="273" x2="406"
+                                transform="translate(0,519) scale(1, -1)"/>
+                        <text class="dim-text" x="203"
+                              transform="translate(0,519) scale(1, -1)">2                            мм                        </text>
+                    </g>
+                    <g id="svg-band-marking-bottom" style="">
+                        <line
+                                class="mark-band-2"
+                                x1="0" x2="133"
+                                transform="translate(0,-48) scale(1, -1)"/>
+                        <line
+                                class="mark-band-2"
+                                x1="273" x2="406"
+                                transform="translate(0,-48) scale(1, -1)"/>
+                        <text class="dim-text" x="203"
+                              transform="translate(0,-48) scale(1, -1)">2                            мм                        </text>
+                    </g>
+                    <g id="svg-band-marking-left" style="">
+                        <line
+                                class="mark-band-2"
+                                x1="0" x2="165.5"
+                                transform="translate(-48, 0) rotate(90) scale(1, -1)"/>
+                        <line
+                                class="mark-band-2"
+                                x1="305.5" x2="471"
+                                transform="translate(-48, 0) rotate(90) scale(1, -1)"/>
+                        <text class="dim-text" x="235.5"
+                              transform="translate(-48, 0) rotate(90) scale(1, -1)">2                            мм                        </text>
+                    </g>
+                    <g id="svg-band-marking-right" style="">
+                        <line
+                                class="mark-band-2"
+                                x1="0" x2="165.5"
+                                transform="translate(454, 0) rotate(90) scale(1, -1)"/>
+                        <line
+                                class="mark-band-2"
+                                x1="305.5" x2="471"
+                                transform="translate(454, 0) rotate(90) scale(1, -1)"/>
+                        <text class="dim-text" x="235.5"
+                              transform="translate(454, 0) rotate(90) scale(1, -1)">2                            мм                        </text>
+                    </g>
+                </g>
+                <g id="svg-info" transform="scale(1,-1)">
+                    <text x="-38"
+                          y="38" id="svg-info-text"></text>
+                </g>
+                                            </g>
+
+                    </svg>
+        
