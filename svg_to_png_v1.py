@@ -50,8 +50,14 @@ def svg_to_png(svg_base64: str, name: str) -> Optional[str]:
         height = handle.get_property("height")
         surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, int(width), int(height))
         context = cairo.Context(surface)
-        context.scale(width, height)
-        handle.render_cairo(context)
+        # Define the viewport
+        viewport = Rsvg.Rectangle()
+        viewport.x = 0
+        viewport.y = 0
+        viewport.width = width
+        viewport.height = height
+
+        handle.render_document(context, viewport)
 
         png_io = io.BytesIO()
         surface.write_to_png(png_io)
