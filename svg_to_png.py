@@ -2,7 +2,6 @@ import base64
 import json
 import io
 import timeit
-import pprint
 import gi
 gi.require_version('Rsvg', '2.0')
 from gi.repository import Rsvg, GdkPixbuf, GLib
@@ -39,8 +38,8 @@ def svg_to_png(svg_base64: str, name: str) -> str:
         if not is_valid_svg(svg_data):
             raise ValueError("Invalid SVG data")
 
-        # with open(f"results/{name}.svg", "w") as f:
-        #     f.write(svg_data)
+        with open(f"results/{name}.svg", "w") as f:
+            f.write(svg_data)
 
         handle = Rsvg.Handle.new_from_data(svg_data.encode('utf-8'))
         width = handle.get_property("width")
@@ -54,8 +53,8 @@ def svg_to_png(svg_base64: str, name: str) -> str:
         surface.write_to_png(png_io)
         png_io.seek(0)
 
-        # with open(f"results/{name}.png", "wb") as f:
-        #     f.write(png_io.read())
+        with open(f"results/{name}.png", "wb") as f:
+            f.write(png_io.read())
 
         png_io.seek(0)  # Reset the buffer to the beginning
         png_base64 = base64.b64encode(png_io.read()).decode('utf-8')
