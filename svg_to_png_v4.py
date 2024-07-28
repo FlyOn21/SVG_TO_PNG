@@ -78,6 +78,10 @@ def svg_to_png(svg_base64: str, name: str, result_collector: dict) -> Optional[s
         return
 
 
+def worker(item, result_collector):
+    key, svg_base64 = item
+    svg_to_png(svg_base64, key, result_collector)
+
 def process_json_file(input_file: str, output_file: str):
     """
     Process the input JSON file, convert the SVG to PNG, and save to output JSON file.
@@ -86,16 +90,17 @@ def process_json_file(input_file: str, output_file: str):
     """
     with open(input_file, 'r') as f:
         data = json.load(f)
+
     with multiprocessing.Manager() as manager:
         result_collector = manager.dict()
-        processes = []
-        for key, svg_base64 in data.items():
-            p = multiprocessing.Process(target=svg_to_png, args=(svg_base64, key, result_collector))
-            processes.append(p)
-            p.start()
-        for p in processes:
-            p.join()
+        items = list(data.items())
+        cpu_count = 2
+
+        with multiprocessing.Pool(cpu_count) as pool:
+            pool.starmap(worker, [(item, result_collector) for item in items])
+
         data.update(result_collector)
+
     with open(output_file, 'w') as f:
         json.dump(data, f, indent=4)
 
