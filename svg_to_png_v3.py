@@ -3,9 +3,9 @@ import json
 import io
 import timeit
 import cairo
-import asyncio
 from typing import Optional
 import cProfile
+import multiprocessing
 
 import gi
 gi.require_version('Rsvg', '2.0')
@@ -31,12 +31,11 @@ def is_valid_svg(svg_data: str) -> bool:
     return True
 
 
-async def svg_to_png(svg_base64: str, name: str, result_collector: dict) -> Optional[str]:
+def svg_to_png(svg_base64: str, name: str, result_collector: dict) -> Optional[str]:
     """
     Convert a base64-encoded SVG to a base64-encoded PNG.
     :param svg_base64: base64-encoded SVG
     :param name: Name for saving the files
-    :param result_collector: Dictionary to store the results
     :return: base64-encoded PNG
     """
     try:
@@ -71,17 +70,14 @@ async def svg_to_png(svg_base64: str, name: str, result_collector: dict) -> Opti
 
         png_io.seek(0)  # Reset the buffer to the beginning
         png_base64 = base64.b64encode(png_io.read()).decode('utf-8')
-        if png_base64:
-            result_collector[name] = png_base64
-        else:
-            print(f"Failed to convert SVG for key: {name}")
+        result_collector[name] = png_base64
         return
     except Exception as e:
         print(f"Error converting SVG to PNG: {e}")
         return
 
 
-async def process_json_file(input_file: str, output_file: str):
+def process_json_file(input_file: str, output_file: str):
     """
     Process the input JSON file, convert the SVG to PNG, and save to output JSON file.
     :param input_file: Path to the input JSON file
@@ -89,13 +85,16 @@ async def process_json_file(input_file: str, output_file: str):
     """
     with open(input_file, 'r') as f:
         data = json.load(f)
-
-    for key, svg_base64 in data.items():
-        tasks = []
-        task = asyncio.create_task(svg_to_png(svg_base64, name=key, result_collector=data))
-        tasks.append(task)
-        await asyncio.gather(*tasks)
-
+    with multiprocessing.Manager() as manager:
+        result_collector = manager.dict()
+        processes = []
+        for key, svg_base64 in data.items():
+            p = multiprocessing.Process(target=svg_to_png, args=(svg_base64, key, result_collector))
+            processes.append(p)
+            p.start()
+        for p in processes:
+            p.join()
+        data.update(result_collector)
     with open(output_file, 'w') as f:
         json.dump(data, f, indent=4)
 
@@ -103,7 +102,6 @@ async def process_json_file(input_file: str, output_file: str):
 if __name__ == '__main__':
     input_json_path = 'Json.txt'
     output_json_path = 'Result.json'
-    start = timeit.default_timer()
-    asyncio.run(process_json_file(input_json_path, output_json_path))
-    time = timeit.default_timer() - start
+    time = timeit.timeit(lambda: process_json_file(input_json_path, output_json_path), number=1)
+    # cProfile.run('process_json_file(input_json_path, output_json_path)')
     print(f"Processing time: {time}")

@@ -4,6 +4,8 @@ import io
 import timeit
 import cairo
 from typing import Optional
+import cProfile
+import multiprocessing
 
 import gi
 gi.require_version('Rsvg', '2.0')
@@ -98,4 +100,5 @@ if __name__ == '__main__':
     input_json_path = 'Json.txt'
     output_json_path = 'Result.json'
     time = timeit.timeit(lambda: process_json_file(input_json_path, output_json_path), number=1)
+    # cProfile.run('process_json_file(input_json_path, output_json_path)')
     print(f"Processing time: {time}")
