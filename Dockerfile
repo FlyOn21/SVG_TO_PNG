@@ -19,20 +19,16 @@ RUN apt-get update && \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Set the working directory in the container
 WORKDIR /app
 
-# Copy the requirements file into the container
 COPY requirements.txt .
 
-# Install the Python dependencies
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-# Copy the rest of the application code into the container
 RUN mkdir results
 COPY Json.txt .
 COPY svg_to_png_v3.py .
+COPY svg_to_png_v1.py .
 
-# Specify the command to run on container start
 CMD ["python3", "svg_to_png_v3.py"]
