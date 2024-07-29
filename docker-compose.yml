@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  converter_svgpng:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: svg_to_png
+    image: converter_svgpng:0.1.0
